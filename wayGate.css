@@ -1,0 +1,46 @@
+.zj-main {
+
+}
+
+.zj-section {
+
+}
+.zj-section .zj-section-title {
+    margin-left: 30px;
+    padding-left: 4px;
+    border-left: 4px solid #f0f0f0;
+    color: rgba(0,0,0,.85);
+}
+
+.zj-card-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: wrap;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+.zj-card-list .zj-card {
+    box-sizing: border-box;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+.zj-card-list .zj-card-content {
+    border: 1px solid #f5f5f5;
+    box-shadow: 1px 1px 1px #ccc;
+    padding: 15px;
+}
+.zj-card-list .zj-card-content:hover {
+    -ms-transform: translateY(-10%);
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
+    -webkit-transition: transform .3s;
+    transition: transform .3s;
+}
+
+.zj-card-list zj-card-title {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+}
